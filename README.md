@@ -193,7 +193,7 @@
 2.  Класс `Paragraph` может содержать произвольное число других элементов разметки и текстовых элементов.
 3.  Класс `Text` – текстовый элемент.
 4.  Классы разметки `Emphasis`, `Strong`, `Strikeout` – выделение, сильное выделение и зачеркивание. Элементы разметки могут содержать произвольное число других элементов разметки и текстовых элементов.
-5.  Все классы должны реализовывать метод `toMarkdown([StringBuilder](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/StringBuilder.html))`, который должен генерировать [Markdown](https://ru.wikipedia.org/wiki/Markdown)\-разметку по следующим правилам:
+5.  Все классы должны реализовывать метод _toMarkdown([StringBuilder](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/StringBuilder.html))_, который должен генерировать [Markdown](https://ru.wikipedia.org/wiki/Markdown)\-разметку по следующим правилам:
     1.  текстовые элементы выводятся как есть;
     2.  выделенный текст окружается символами '`*`';
     3.  сильно выделенный текст окружается символами '`__`';
